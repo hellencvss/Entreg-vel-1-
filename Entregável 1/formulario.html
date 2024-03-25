@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0"/>
+    <title>Mundo Naruto</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    
+    <nav>
+        <h2>Mundo Naruto</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="comentario.html">Comentário</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+        </ul>
+
+    </nav>
+
+    <h1>Cadastre-se no Mundo Naruto</h1>
+    <form>
+        <!--Legenda para nome-->
+        <label for="campo_nome">Nome:</label>
+        <!--Campo input do type text-->
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required><br><br>
+       
+        <!--Leganda para email-->
+        <label for="email">Email:</label>
+        <!--Campo input do type email-->
+        <input id="email" type="email" placeholder="Digite seu email aqui" required><br><br>
+       
+        <!--Legenda para senha-->
+        <label for="senha">Senha:</label>
+        <!--Campo input do type password-->
+        <input id="senha" type="password" placeholder="Digite sua senha aqui" required><br><br>
+
+
+        <h2>Escolha um Ninja</h2>
+        <input type="radio" id="naruto"  name="ninja" value="naruto">
+        <label for="naruto">Naruto</label>
+        <br><br>
+
+        <input type="radio" id="sasuke"  name="ninja" value="sasuke">
+        <label for="sasuke">Sasuke</label>
+        <br><br>
+       
+        <input type="radio" id="sakura"  name="ninja" value="sakura">
+        <label for="sakura">Sakura</label>
+        <br><br>
+       
+        <h2>Por onde você assiste Naruto?</h2>
+        <input id="item1" type="checkbox" name="item1" value="tv">
+        <label for="item1">TV</label>
+        <br><br>
+
+        <input id="item2" type="checkbox" name="item2" value="celular">
+        <label for="item2">Celular</label>
+        <br><br>
+
+        <input id="item3" type="checkbox" name="item3" value="computador">
+        <label for="item3">Computador</label>
+        <br><br>
+
+        <h2>Escolha uma cor</h2>
+        <select name="cores">
+            <option selected disable value="">Selecione uma cor</option>
+            <option value="vermelho">Vermelho</option> 
+            <option value="azul">Azul</option>
+            <option value="laranja">Laranja</option>
+            <option value="preto">Preto</option>
+        </select>
+        <br><br><br>
+
+
+        <h2>Digite uma mensagem</h2>
+        <textarea name="mensagem" placeholder="Digite aqui a sua mensagem" raws="35" cols="35"></textarea>
+        <br><br>
+
+        <input type="submit" value="Enviar formulário">
+        <br><br>
+
+
+
+    </form>
+
+
+<button>Botão Aleatório</button>
+<br><br>
+
+</body>
